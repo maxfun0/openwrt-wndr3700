@@ -11,6 +11,7 @@
 #
 
 # Uncomment a feed source
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 sed -i 's/^#\(.*passwall\)/\1/' feeds.conf.default
 sed -i 's/^#\(.*small8\)/\1/' feeds.conf.default
 
