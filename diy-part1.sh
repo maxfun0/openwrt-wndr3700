@@ -10,6 +10,11 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
+# DIY
+git clone https://github.com/xiaorouji/openwrt-passwall
+git clone https://github.com/kenzok8/small-package
+
+
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # sed -i 's/^#\(.*passwall\)/\1/' feeds.conf.default
